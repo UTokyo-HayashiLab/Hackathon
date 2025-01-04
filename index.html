@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AIハッカソン プロジェクト</title>
+    <title>AIハッカソン プロジェクト一覧</title>
     <style>
         body {
             font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
@@ -16,7 +16,12 @@
         h1 {
             text-align: center;
             font-size: 2.5em;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        .description {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1em;
         }
         .section {
             margin-bottom: 40px;
@@ -26,12 +31,13 @@
             margin: 20px 0 10px;
             color: #0066cc;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+        .project {
+            margin: 10px 0;
         }
-        li {
-            margin: 5px 0;
+        .members-list {
+            margin-left: 20px;
+            padding-left: 0;
+            list-style-type: circle;
         }
         a {
             text-decoration: none;
@@ -40,34 +46,62 @@
         a:hover {
             text-decoration: underline;
         }
+        .members-section {
+            margin-top: 40px;
+        }
+        .members-section h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: #444;
+        }
     </style>
 </head>
 <body>
 
-    <h1>ハッカソン プロジェクト一覧</h1>
+    <h1>AIハッカソン プロジェクト</h1>
+
+    <div class="description">
+        このハッカソンは、AIや自然言語処理に関する技術やアイデアを通じた社会課題の解決、及び、学生教育の支援を目的としています。  
+        参加者は多様な所属組織から集まり、イノベーティブなプロジェクトを短期間で形にします。
+        プロジェクトによる研究成果は、トップ国際会議への採択にも繋がっています。
+    </div>
 
     <div class="section">
         <h2 class="year">2024年度</h2>
-        <ul>
-            <li><a href="https://naist-nlp.github.io/CC_RAG/">プロジェクト1: 検索拡張生成の確信度への影響調査</a></li>
-        </ul>
+        <div class="project">
+            <a href="https://naist-nlp.github.io/CC_RAG/">プロジェクト1: 検索拡張生成が確信度に及ぼす影響の調査</a>
+            <ul class="members-list">
+                <li>尾崎 慎太郎（奈良先端大）</li>
+                <li>加藤 優汰（東京大学）</li>
+                <li>馮 思遠（東京大学）</li>
+                <li>富田 雅代（東京大学）</li>
+                <li>林 和樹（奈良先端大）</li>
+            </ul>
+        </div>
     </div>
 
     <div class="section">
         <h2 class="year">2023年度</h2>
-        <ul>
-            <li><a href="">プロジェクト1: 画像批評タスクの提案</a></li>
-        </ul>
+        <div class="project">
+            <a href="https://arxiv.org/abs/2402.12121">プロジェクト1: 大規模画像言語モデルによる画像批評タスクの提案</a>
+            <ul class="members-list">
+                <li>林 和樹（奈良先端大）</li>
+                <li>坂井 優介（奈良先端大）</li>
+                <li>大西 雄真（北海道大学）</li>
+                <li>鈴木 刀磨（奈良先端大）</li>
+                <li>井手 佑翼（奈良先端大）</li>
+                <li>郷原 聖士（奈良先端大）</li>
+                <li>齊藤 成輝（北海道大学）</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="section">
-        <h2 class="year">参加者リスト</h2>
+    <div class="members-section">
+        <h3>コア企画メンバー</h3>
         <ul>
             <li>上垣外 英剛（奈良先端大）</li>
             <li>林 克彦（東京大学）</li>
             <li>渡辺 太郎（奈良先端大）</li>
-            <li>林 和樹（奈良先端大）</li>
-            <li>尾崎 慎太郎（奈良先端大）</li>
         </ul>
     </div>
 
